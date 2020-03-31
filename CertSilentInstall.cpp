@@ -12,11 +12,11 @@ bool ImportCert(std::wstring filename, std::wstring password);
 
 int wmain(int argc, wchar_t** argv)
 {
-    std::wcout << L"@ ITmindCo\n";
+    std::wcout << L"ITmindCo @ 2020\n";
     std::wcout << L"Import pfx in silent mode\n";
     if (argc != 3) {
         std::wcout << L"use:\n";
-        std::wcout << L"CertSilentInst <password> <filename>\n";
+        std::wcout << L"CertSilentInstall <password> <filename>\n";
         return 0;
     }
 
